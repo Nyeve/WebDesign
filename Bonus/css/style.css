@@ -50,7 +50,7 @@ h1{
     transform: translateX(-50%);
     height: 2px;
     width: 80px;
-    /*background-color: yellow;*/
+    background-color: yellow;
     margin-top: 2px;
 
 }
@@ -97,6 +97,7 @@ border: 1px solid black
 }
 .button-container{
     justify-content: end;
+    padding: 20px;
 }
 .button-container button{
     width: 200px;
