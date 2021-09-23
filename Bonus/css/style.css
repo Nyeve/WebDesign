@@ -13,25 +13,25 @@ body{
 
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 .banner{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    padding: 5%;
+    padding: 30px;
 }
 .image-section{
-    height: 800px;
-    overflow: hidden;
-    background-image: url(/image/person.png);
+    height: 500px;
+   /* overflow: hidden;*/
+    background-image: url(/WebDesign/Bonus/image/person.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: centre ;
-
+    background-position: centre;
 }
-.image-section-image{
-    width: 100%;
+.image-section .image-section-image{
+    width: 300px;
 }
 .main-content h3{
     text-align: center;
@@ -39,29 +39,32 @@ h1{
     font-size: 40px;
     text-transform: capitalize;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-bottom: 2 0px;
  
 }
 .main-content h3::before{
     content: '';
-    position: center;
+    position: absolute;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
     height: 2px;
-    width: 50px;
-    background-color: eee;
-    margin-top: 10px;
+    width: 80px;
+    /*background-color: yellow;*/
+    margin-top: 2px;
 
 }
-.text-section p{
+.main-content p{
+   /* text-align: center;*/
+    margin-left: auto;
     font-size: 22px;
     margin: 18px 37px;
+    position: relative;
 }
 .form-section{
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
 
 }
 .form-container{
@@ -77,6 +80,11 @@ h1{
     font-size: 50px;
     font-weight: normal;
 }
+.input-container,
+.button-container{
+    display: flex;
+    flex-direction: column;
+}
 .input-container label{
     font-size: 16px;
     margin-bottom: 11px;
@@ -84,11 +92,13 @@ h1{
 .input-container input,
 .input-container textarea{
 padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid black
 }
-.input-container{
-    justify-content: flex-end;
+.button-container{
+    justify-content: end;
 }
-button-container button{
+.button-container button{
     width: 200px;
     text-align: center;
     padding: 15px;
@@ -97,4 +107,4 @@ button-container button{
     border-radius: 5px;
     color: white;
     margin-left: auto;
-}
+}                                                                                                                                                                                                 
