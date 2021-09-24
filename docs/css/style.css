@@ -24,7 +24,7 @@ h1{
 }
 .image-section{
     height: 500px;
-    background-image: url(/docs/image/person.png);
+    background-image: url(docs/image/person.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: centre;
